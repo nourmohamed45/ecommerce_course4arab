@@ -23,12 +23,12 @@ const mySlider = [
   {
     id: 1,
     text: "MEN",
-    link: "public/hero/banner-15.jpg",
+    link: "./hero/banner-15.jpg",
   },
   {
     id: 2,
     text: "WOMEN",
-    link: "public/hero/banner-18.jpg",
+    link: "./hero/banner-18.jpg",
   },
 ];
 
@@ -143,7 +143,7 @@ function Hero() {
           <Box sx={{ position: "relative" }}>
             <img
               style={{ width: "100%" }}
-              src="public\hero\banner-17.jpg"
+              src="./hero/banner-17.jpg"
               alt=""
             />
             <Stack
@@ -202,7 +202,7 @@ function Hero() {
           <Box sx={{ position: "relative" }}>
             <img
               style={{ width: "100%" }}
-              src="public\hero\banner-16.jpg"
+              src="./hero/banner-16.jpg"
               alt=""
             />
             <Stack
